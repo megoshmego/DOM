@@ -31,3 +31,71 @@ Condensed Information for Flashcards:
 15. **JavaScript setInterval Function:** A built-in JavaScript function that executes a specific function or code snippet repeatedly at fixed time intervals.
 
 16. **JavaScript Conditionals and String Manipulation:** The use of conditional statements in JavaScript to control the flow of code execution and manipulate strings.
+
+Certainly! Here's a refresher on common JavaScript event listeners:
+
+1. **click**: Fires when an element is clicked.
+
+```javascript
+element.addEventListener('click', function() {
+  // Event handling code here
+});
+```
+
+2. **mouseover**: Fires when the mouse pointer enters an element.
+
+```javascript
+element.addEventListener('mouseover', function() {
+  // Event handling code here
+});
+```
+
+3. **mouseout**: Fires when the mouse pointer leaves an element.
+
+```javascript
+element.addEventListener('mouseout', function() {
+  // Event handling code here
+});
+```
+
+4. **keydown**: Fires when a key on the keyboard is pressed.
+
+```javascript
+element.addEventListener('keydown', function(event) {
+  // Event handling code here
+});
+```
+
+5. **keyup**: Fires when a key on the keyboard is released.
+
+```javascript
+element.addEventListener('keyup', function(event) {
+  // Event handling code here
+});
+```
+
+6. **submit**: Fires when a form is submitted.
+
+```javascript
+element.addEventListener('submit', function(event) {
+  // Event handling code here
+});
+```
+
+7. **change**: Fires when the value of an input element changes (e.g., on checkbox selection, dropdown selection).
+
+```javascript
+element.addEventListener('change', function(event) {
+  // Event handling code here
+});
+```
+
+8. **load**: Fires when an element, such as an image or the entire page, finishes loading.
+
+```javascript
+window.addEventListener('load', function() {
+  // Event handling code here
+});
+```
+
+These are just a few examples of common event listeners in JavaScript. Event listeners allow you to respond to user interactions and other events in your web applications. Remember to replace "element" in the code snippets with the appropriate DOM element to attach the event listener to.
